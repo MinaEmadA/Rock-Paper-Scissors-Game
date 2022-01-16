@@ -39,13 +39,13 @@ options.forEach(function (option) {
         }, 1800);
     });
 });
-
+//Computer logic
 function computerLogic() {
     const computerOptions = ['rock', 'paper', 'scissors'];
     const randomNumber = Math.floor(Math.random() * 3);
     return computerOptions[randomNumber];
 };
-
+//Game rules
 function game(playerChoice, computerChoice) {
     switch (playerChoice + computerChoice) {
         case 'rockscissors':
